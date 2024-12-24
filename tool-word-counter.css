@@ -1,0 +1,71 @@
+#word-counter-tool {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #word-counter-tool textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    margin-top: 10px;
+    resize: vertical;
+  }
+
+  #word-counter-tool .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  #word-counter-tool button {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #word-counter-tool button:hover {
+    background-color: #45a049;
+  }
+
+  #word-counter-tool .undo-btn {
+    background-color: #007BFF;
+  }
+
+  #word-counter-tool .undo-btn:hover {
+    background-color: #0066cc;
+  }
+
+  #word-counter-tool .redo-btn {
+    background-color: #28a745;
+  }
+
+  #word-counter-tool .redo-btn:hover {
+    background-color: #218838;
+  }
+
+  #word-counter-tool .clear-btn {
+    background-color: #f44336;
+  }
+
+  #word-counter-tool .clear-btn:hover {
+    background-color: #d32f2f;
+  }
+
+  #word-counter-tool .word-count {
+    margin-top: 10px;
+    font-size: 18px;
+  }
